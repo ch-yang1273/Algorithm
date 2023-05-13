@@ -20,6 +20,9 @@ public class Main {
         // 쉽다. pop 될 숫자가 출력되야 할 순서가 맞으면 pop하고, 아니면 push
         // N 까지 다 push해보고 안되면 NO 출력하면 되겠다.
         // bw 사용해서 성공하면 flush
+        
+        // bw 사용하면 버퍼가 다 차서 출력을 해버린다. (출력 초과)
+        // sb로 바꾸니 성공
 
         int N = Integer.parseInt(br.readLine());
         List<Integer> targetList = new ArrayList<>();
