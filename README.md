@@ -7,3 +7,4 @@ This is an automatically updated repository for BOJ and Programmers, created wit
 
 ### DFS / BFS
 - [1260. DFS와 BFS](백준/Silver/1260. DFS와 BFS) - dfs와 bfs의 베이스
+- [1389. 케빈 베이컨의 6단계 법칙](백준/Silver/1389. 케빈 베이컨의 6단계 법칙) - 최단거리는 bfs
