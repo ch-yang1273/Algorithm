@@ -1,4 +1,5 @@
-This is a auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+This is an automatically updated repository for BOJ and Programmers, created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+
 # Algorithm
 ### Lower bound, Upper bound
 - [2805. 나무 자르기](백준/Silver/2805. 나무 자르기)
