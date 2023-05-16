@@ -12,6 +12,7 @@ This is an automatically updated repository by [BaekjoonHub](https://github.com/
 ### DFS / BFS
 - [1260. DFS와 BFS](백준/Silver/1260. DFS와 BFS) - dfs와 bfs의 베이스
 - [1389. 케빈 베이컨의 6단계 법칙](백준/Silver/1389. 케빈 베이컨의 6단계 법칙) - 최단거리는 bfs
+- [10026. 적록색약](백준/Gold/10026. 적록색약) - 사방(or 팔방) 이동, static int[] dirX = {-1, 1, 0, 0}; // 왼쪽, 오른쪽, 아래, 위
 
 ### Sort
 - [11650. 좌표 정렬하기](백준/Silver/11650. 좌표 정렬하기) - Collections.sort(), compareTo() 오버라이딩으로 정렬 조건 주기
