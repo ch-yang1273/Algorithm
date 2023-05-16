@@ -15,3 +15,6 @@ This is an automatically updated repository by [BaekjoonHub](https://github.com/
 
 ### Sort
 - [11650. 좌표 정렬하기](백준/Silver/11650. 좌표 정렬하기) - Collections.sort(), compareTo() 오버라이딩으로 정렬 조건 주기
+
+### 이진 탐색
+- [1920. 수 찾기](백준/Silver/1920. 수 찾기) - Binary Search 구현 베이스
