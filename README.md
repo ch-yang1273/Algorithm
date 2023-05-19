@@ -19,3 +19,6 @@ This is an automatically updated repository by [BaekjoonHub](https://github.com/
 
 ### 이진 탐색
 - [1920. 수 찾기](백준/Silver/1920. 수 찾기) - Binary Search 구현 베이스
+
+### 백트래킹
+- [15649. N과 M （1）](백준/Silver/15649. N과 M （1）) - 백트래킹 베이스
