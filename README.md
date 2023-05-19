@@ -22,3 +22,4 @@ This is an automatically updated repository by [BaekjoonHub](https://github.com/
 
 ### 백트래킹
 - [15649. N과 M （1）](백준/Silver/15649. N과 M （1）) - 백트래킹 베이스
+- [9663. N－Queen](백준/Gold/9663. N－Queen)
