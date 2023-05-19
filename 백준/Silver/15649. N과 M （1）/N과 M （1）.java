@@ -1,48 +1,47 @@
 import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class Main {
 
-  static List<Integer> list = new ArrayList<>();
-  static boolean[] used;
+    static Stack<Integer> stack = new Stack<>();
+    static boolean[] isUsed;
 
-  static void printSequence(int currNum, int maxN, int maxM, int depth) {
+    static int N;
+    static int M;
 
-    list.add(currNum);
-    used[currNum] = true;
+    static void printSequence(int depth) {
 
-    if (depth == (maxM - 1)) {
-      for (int i = 0; i < list.size(); i++) {
-        System.out.print(list.get(i) + " ");
-      }
-      System.out.println("");
-    } else {
-
-      for (int i = 1; i <= maxN; i++) {
-        if (!used[i]) {
-          printSequence(i, maxN, maxM,depth + 1);
+        if (depth == M) {
+            for (Integer num : stack) {
+                System.out.print(num + " ");
+            }
+            System.out.println();
+            return;
         }
-      }
+
+        for (int i = 1; i <= N; i++) {
+            if (!isUsed[i]) {
+                stack.push(i);
+                isUsed[i] = true;
+                printSequence(depth + 1);
+                stack.pop();
+                isUsed[i] = false;
+            }
+        }
     }
 
-    list.remove(depth);
-    used[currNum] = false;
-  }
+    public static void main(String[] args) throws IOException {
 
-  public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String[] strings = br.readLine().split(" ");
 
-    String[] strings = br.readLine().split(" ");
+        N = Integer.parseInt(strings[0]);
+        M = Integer.parseInt(strings[1]);
 
-    int N = Integer.parseInt(strings[0]);
-    int M = Integer.parseInt(strings[1]);
+        isUsed = new boolean[N+1];
+        isUsed[0] = true; //0은 안쓴다.
 
-    used = new boolean[N + 1];
-    used[0] = true; //0은 쓰지말고
-    for (int i = 1; i <= N; i++) {
-      printSequence(i, N, M, 0);
+        printSequence(0);
     }
-  }
 }
