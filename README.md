@@ -5,6 +5,9 @@ This is an automatically updated repository by [BaekjoonHub](https://github.com/
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=ych0305)](https://solved.ac/ych0305)
 
 ## Memorable
+### 이진 트리
+- [1991. 트리 순회](백준/Silver/1991. 트리 순회) - 이진 트리 구현 베이스
+
 ### Lower bound, Upper bound
 - [2805. 나무 자르기](백준/Silver/2805. 나무 자르기)
 - [1654. 랜선 자르기](#) - Todo
