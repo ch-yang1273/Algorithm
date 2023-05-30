@@ -26,3 +26,6 @@ This is an automatically updated repository by [BaekjoonHub](https://github.com/
 ### 백트래킹
 - [15649. N과 M （1）](백준/Silver/15649. N과 M （1）) - 백트래킹 베이스
 - [9663. N－Queen](백준/Gold/9663. N－Queen)
+
+### 배낭 문제(Knapsack Problem), DP
+- [12865. 평범한 배낭](백준/Gold/12865. 평범한 배낭) - 배낭 문제 베이스
