@@ -10,7 +10,6 @@ This is an automatically updated repository by [BaekjoonHub](https://github.com/
 
 ### Lower bound, Upper bound
 - [2805. 나무 자르기](백준/Silver/2805. 나무 자르기)
-- [1654. 랜선 자르기](#) - Todo
 
 ### DFS / BFS
 - [1260. DFS와 BFS](백준/Silver/1260. DFS와 BFS) - dfs와 bfs의 베이스
@@ -29,3 +28,6 @@ This is an automatically updated repository by [BaekjoonHub](https://github.com/
 
 ### 배낭 문제(Knapsack Problem), DP
 - [12865. 평범한 배낭](백준/Gold/12865. 평범한 배낭) - 배낭 문제 베이스
+
+### 최장 공통 부분 수열(LCS), DP
+- [9251. LCS](백준/Gold/9251. LCS) - LCS 베이스
