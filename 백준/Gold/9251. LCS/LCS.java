@@ -8,7 +8,6 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         // diff 유틸리티의 근간이 된다.
-        // 두개의 수열(String)에서 공통
 
         String s1 = br.readLine();
         String s2 = br.readLine();
@@ -21,6 +20,7 @@ public class Main {
                 char comp2 = s2.charAt(j-1);
 
                 if (comp1 == comp2) {
+                    // 공통되는 두 char가 있기 전의 LCS 길이 + 1
                     dp[i][j] = dp[i-1][j-1] + 1;
                 } else {
                     dp[i][j] = Math.max(dp[i-1][j], dp[i][j-1]);
@@ -28,6 +28,7 @@ public class Main {
             }
         }
 
+        // LCS 길이 출력
         System.out.println(dp[s1.length()][s2.length()]);
     }
 }
