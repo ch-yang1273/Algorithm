@@ -1,7 +1,6 @@
-# Write your MySQL query statement below
-SELECT MAIN.NUM AS ConsecutiveNums
-FROM LOGS MAIN
-    JOIN LOGS SUB1 ON SUB1.ID = MAIN.ID + 1
-    JOIN LOGS SUB2 ON SUB2.ID = MAIN.ID + 2
-WHERE MAIN.NUM = SUB1.NUM AND MAIN.NUM = SUB2.NUM
-GROUP BY MAIN.NUM
+SELECT DISTINCT b.num as ConsecutiveNums
+FROM (
+    SELECT *, LEAD(a.num) OVER (ORDER BY a.id) as num2, LEAD(a.num, 2) OVER (ORDER BY a.id) as num3
+    FROM Logs a
+) b
+WHERE b.num = b.num2 AND b.num = b.num3
